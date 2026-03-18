@@ -32,4 +32,11 @@ class ComposePagerScope(
 
     //真实索引
     internal val realIndex: Int,
-)
+) {
+
+    /**
+     * 当前的ComposePager布局content所在的原始索引
+     * Current raw index in the [ComposePager]
+     */
+    val rawIndex: Int get() = realIndex
+}
