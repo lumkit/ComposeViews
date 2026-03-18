@@ -88,7 +88,7 @@ class BannerActivity : BaseComposeActivity() {
     private fun Menu(itemIndex: Int, rawIndex: Int) {
         FlowLayout(horizontalMargin = 10.dp) {
             FpsText(modifier = Modifier)
-            Text(text = "current item:$itemIndex \n current rawIndex:$rawIndex", fontSize = 30.sp)
+            Text(text = "current item:$itemIndex \n current rawIndex:$rawIndex")
             Button(onClick = {
                 orientation.value = if (orientation.value == Orientation.Horizontal)
                     Orientation.Vertical

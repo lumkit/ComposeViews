@@ -119,7 +119,7 @@ fun Banner(
             clip = clip,
             contentTransformation = contentTransformation,
         ) {
-            content(BannerScope(index, rawIndex))
+            content(BannerScope(index, realIndex))
         }
     }
 }
